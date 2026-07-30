@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Gadhii❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div id="stars"></div>
+    <div id="particles"></div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="assets/music/birthday.mp3" type="audio/mp3">
+    </audio>
+    <audio id="cameraSound" preload="auto">
+     <source src="assets/music/shutter.mp3" type="audio/mp3">
+    </audio>
+    <audio id="meow">
+        <source src ="assets/music/meow.mp3" ">
+    </audio>
+    <audio id="scream">
+        <source src ="assets/music/scream.mp3" ">
+    </audio>
+
+    <!-- ================= INTRO ================= -->
+
+    <section id="intro" class="page active">
+
+        <div class="glass">
+
+            <h3 class="smallText">
+                Someone has a surprise for you...
+            </h3>
+
+            <h1 class="title">
+                Hi! How are you? 😊
+            </h1>
+
+            <div class="btnGroup">
+
+                <button id="superb">
+                    😎 Superb
+                </button>
+
+                <button id="okayish">
+                    😐 Okayish
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= QUESTION PAGE ================= -->
+
+    <section id="question" class="page">
+
+        <div class="glass">
+
+            <h1>
+                Do you know what day it is today?
+            </h1>
+
+            <div class="btnGroup">
+
+                <button id="birthdayBtn">
+                    🎂 My Birthday?
+                </button>
+
+                <button id="whatBtn">
+                    🤔 What?
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FUNNY POPUP ================= -->
+
+    <section id="popup" class="page">
+
+        <div class="popup">
+
+            <h1>
+                LET ME SAY IT DUMBFUCKKK :/
+            </h1>
+
+            <button id="popupOK">
+                OK Bruh..
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CINEMATIC REVEAL ================= -->
+
+    <section id="reveal" class="page">
+
+        <div class="revealContent">
+
+            <h2 class="waitText">
+                Wait...
+            </h2>
+
+            <h2 class="waitText">
+                Something feels special today...
+            </h2>
+
+            <h1 id="birthdayReveal">
+
+                IT'S
+
+                <br>
+
+                ADWITEEA'S
+
+                <br>
+
+                BIRTHDAYYYYYYY!!
+
+            </h1>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PHOTO FLASH SHOW ================= -->
+
+    <section id="slideshow" class="page">
+
+        <img
+            id="slideImage"
+            src="assets/photos/photo1.png"
+            alt="Birthday Photo">
+
+    </section>
+
+     <!-- ================= GIFT SCENE ================= -->
+
+    <section id="giftScene" class="page">
+
+        <h2 class="giftTitle">
+            A little gift for you... 🎁
+        </h2>
+
+        <div id="giftBox">
+
+            <div class="giftTop"></div>
+
+            <div class="giftBody"></div>
+
+            <div class="giftRibbonV"></div>
+
+            <div class="giftRibbonH"></div>
+
+        </div>
+
+        <button id="openGift">
+            Open Gift 🎁
+        </button>
+
+    </section>
+
+    <!-- ================= CELEBRATION ================= -->
+
+    <section id="celebration" class="page">
+
+        <canvas id="fireworksCanvas"></canvas>
+
+        <div id="confetti"></div>
+
+        <div id="balloons"></div>
+
+        <div id="hearts"></div>
+
+        <div id="sparkles"></div>
+
+        <div class="celebrationContent">
+
+            <h1 id="happyTitle">
+
+                🎉 HAPPY BIRTHDAY 🎉
+
+            </h1>
+
+            <h1 id="birthdayName">
+
+                ADWITEEA ❤️
+
+            </h1>
+
+            <div id="cake">
+
+              <img src="assets/photos/cake.png" alt="Birthday Cake">
+
+            </div>
+
+            <p id="wish">
+
+                May your smile always shine as brightly as today.
+
+                <br><br>
+
+                Wishing you happiness, success,
+
+                love and endless memories.
+
+                <br><br>
+
+                Have an amazing birthday,
+
+                Adwiteea ❤️
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SCRAPBOOK ================= -->
+
+    <section id="scrapbook" class="page">
+
+        <h1 class="scrapTitle">
+
+            Ew Memories 📸
+
+        </h1>
+
+        <div class="gallery">
+
+            <img src="assets/photos/photo1.png">
+
+            <img src="assets/photos/photo2.png">
+
+            <img src="assets/photos/photo3.png">
+
+            <img src="assets/photos/photo4.png">
+
+            <img src="assets/photos/photo5.png">
+
+            <img src="assets/photos/photo6.png">
+
+        </div>
+
+        <button id="replay">
+
+            Replay ❤️
+
+        </button>
+
+    </section>
+
+    <!-- ================= LIBRARIES ================= -->
+     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
